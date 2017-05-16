@@ -1,0 +1,326 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Play', sans-serif;
+}
+
+.bg-h {
+    z-index: -1;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: orange;
+}
+
+
+/*.head-bg {
+    width: 100%;
+    height: 1000px;
+    background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1440 1250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns"><title>Group_logo</title><desc>Created using Figma</desc><g id="Canvas" transform="translate(6254 60)" figma:type="canvas"><g id="Group_logo" figma:type="frame"><mask id="mask0_alpha" mask-type="alpha"><g id="Polygon" figma:type="vector"><use xlink:href="#path0_fill" transform="translate(-6254 -60)" fill="#C4C4C4"/></g></mask><g id="Mask" mask="url(#mask0_alpha)" figma:type="vector"><use xlink:href="#path1_fill" transform="translate(-6254 -60)" fill="url(#paint1_radial)"/></g><g id="Group24" mask="url(#mask0_alpha)" figma:type="frame"><g id="p1" opacity="0.8" figma:type="vector"><use xlink:href="#path2_fill" transform="translate(-6157.9 1008.65)" fill="url(#paint2_linear)"><animateTransform attributeName="transform" attributeType="XML" type="translate" dur="10s" calcMode="linear" values="-6400 1030; -6300 1050; -6150 1030; -6300 1010; -6400 1030" keyTimes="0; .25; .5; .75; 1" repeatCount="indefinite" /></use></g><g id="p2" opacity="0.5" figma:type="vector"><use xlink:href="#path3_fill" transform="translate(-6254 990)" fill="url(#paint3_linear)"><animateTransform attributeName="transform" attributeType="XML" type="translate" dur="9s" calcMode="linear" values="-6250 980; -6150 1000; -6100 990; -6150 1000; -6250 980" keyTimes="0; .25; .5; .75; 1" repeatCount="indefinite" /></use></g><g opacity="0.5"><use xlink:href="#path2_fill" fill="url(#paint2_linear)"><animateTransform attributeName="transform" attributeType="XML" type="translate" dur="7s" calcMode="linear" values="-6390 1008; -6210 1008; -6160 1008; -6210 1008; -6390 1008" keyTimes="0; .25; .5; .75; 1" repeatCount="indefinite" /></use></g></g></g></g><defs><radialGradient id="paint1_radial" cx="0.5" cy="0.5" r="0.5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-2579.87 2752.05 -3170.36 -2239.47 4038.07 -159.637)"><stop offset="0" stop-color="#F3DEAB"/><stop offset="1" stop-color="#F28B51"/></radialGradient><linearGradient id="paint2_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 181.352 -1343.9 0 671.949 0)"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.3"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient><linearGradient id="paint3_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 199.723 -1399.31 0 699.653 0)"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.7"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient><path id="path0_fill" d="M 1238.5 0L 1440 0L 1440 1050C 1440 1050 1140.69 1250 720 1250C 299.31 1250 0.000488281 1050 0.000488281 1050L 0 632C 0 632 399.5 644 775 445.5C 1150.5 247 1238.5 0 1238.5 0Z"/><path id="path1_fill" fill-rule="evenodd" d="M 0 0L 1440 0L 1440 1250L 0 1250L 0 0Z"/><path id="path2_fill" fill-rule="evenodd" d="M 1129.42 36.5078C 1075.2 36.5078 1011.2 67.3662 936.305 67.3662C 861.409 67.3662 784.285 0 709.735 0C 635.184 0 568.091 78.5328 468.247 78.5328C 368.403 78.5328 331.121 28.2618 263.867 28.2618C 196.614 28.2618 141.575 92.3244 47.5588 92.3244C -46.4571 92.3244 27.9339 181.352 27.9339 181.352L 1313.43 181.352C 1313.43 181.352 1381.98 78.5328 1313.43 78.5328C 1244.88 78.5328 1183.63 36.5078 1129.42 36.5078Z"/><path id="path3_fill" fill-rule="evenodd" d="M 1117.3 35.5792C 1057.97 35.5792 1003.32 84.9417 907.929 84.9417C 812.542 84.9417 681.219 0 609.978 0C 538.736 1.47247e-15 489.789 74.5567 428.674 74.5567C 367.559 74.5567 293.145 42.7929 245.898 42.7929C 198.651 42.7929 94.3119 114.887 29.019 114.887C -36.2738 114.887 29.019 199.723 29.019 199.723L 1385.52 199.723C 1385.52 199.723 1438.93 95.9941 1335.5 95.9941C 1232.08 95.9941 1154.28 35.5792 1117.3 35.5792Z"/></defs></svg>') center center no-repeat;
+    background-size: cover;
+}*/
+
+.text {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+.logo {
+    min-height: 40px;
+}
+
+.title {
+    width: 500px;
+    margin-top: 30px;
+}
+
+.title p {
+    width: 502px;
+    height: 110px;
+    font-size: 46px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.description {
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.description p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.38;
+    color: #898989;
+}
+
+.talk {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about {
+    position: absolute;
+    left: 130px;
+    top: 800px;
+    right: 10%;
+    opacity: 0.8;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1;
+    text-align: left;
+    color: #000000;
+}
+
+.about p {
+    font-size: 17px;
+    line-height: 1.53;
+    letter-spacing: 0.1px;
+}
+
+
+/*.devices {
+    position: absolute;
+    top: 0;
+    right: 0;
+}*/
+
+@media screen and (max-width: 1200px) {
+    .about {
+        visibility: hidden;
+    }
+    .tablet {
+        position: absolute;
+        visibility: hidden;
+    }
+    .laptop {
+        position: absolute;
+        visibility: hidden;
+    }
+    .ipad {
+        position: absolute;
+        visibility: hidden;
+    }
+    .phone {
+        position: absolute;
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 1450px) and (min-width: 1200px) {
+    .tablet {
+        position: absolute;
+        left: 34%;
+        top: 47%;
+    }
+    .laptop {
+        position: absolute;
+        left: 63%;
+        top: 2%;
+    }
+    .ipad {
+        position: absolute;
+        left: 55%;
+        top: 60%;
+    }
+    .phone {
+        position: absolute;
+        left: 40%;
+        top: 77%;
+    }
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1450px) {
+    .about {
+        position: absolute;
+        top: 1000px;
+    }
+    .about p {
+        font-size: 22px;
+    }
+    .tablet {
+        position: absolute;
+        left: 55%;
+        top: 35%;
+    }
+    .laptop {
+        position: absolute;
+        left: 63%;
+        top: 2%;
+    }
+    .ipad {
+        position: absolute;
+        left: 66%;
+        top: 45%;
+    }
+    .phone {
+        position: absolute;
+        left: 57%;
+        top: 56%;
+    }
+}
+
+*/ .footer {
+    border-radius: 85% 15% 0px 0px / 88% 15% 0px 0px;
+    overflow: hidden;
+    /* this breaks the overflow:hidden in Chrome/Opera */
+    -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+    /* this fixes the overflow:hidden in Chrome/Opera */
+}
+
+.info {
+    padding-left: 8%;
+    margin: 5% 0%;
+}
+
+span {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1.28;
+    text-align: left;
+    color: #333333;
+}
+
+.info .col-4 {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.info .col-4 span {
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2.67;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #333333;
+}
+
+.technology {
+    margin-top: 5%;
+}
+
+.list {
+    padding-left: 15px;
+}
+
+li {
+    color: orange;
+}
+
+.info li span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.71;
+    text-align: left;
+    color: #444444;
+}
+
+.phases span {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2.67;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #333333;
+}
+
+.phases p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    text-align: left;
+    color: #666666;
+}
+
+.outstaff {
+    text-align: center;
+}
+
+.outstaff_map {
+    margin: 3% 0%;
+    height: 500px;
+    width: 100%;
+    background: url(../assets/map.png) no-repeat center center;
+    background-size: contain;
+}
+
+.form {
+    padding-left: 8%;
+    margin-top: 3%;
+}
+
+.contacts {
+    padding-left: 8%;
+    margin-top: 3%;
+}
+
+.contacts h4 {
+    margin: 3% 0% 3% 5%;
+}
+
+.contacts span {
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.14;
+    color: #666666;
+    text-align: left;
+}
+
+.contacts div {
+    margin-bottom: 10px;
+}
+
+.form h1 {
+    padding-left: 20%;
+}
+
+.up {
+    margin-top: 30px;
+}
+
+.sbm {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input {
+    border: 0px;
+    border-radius: 0px !important;
+    border-bottom: 1px solid #e2e2e2 !important;
+    margin-top: 2%;
+}
+
+::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.14;
+    color: #C0C0C0 !important;
+}
+
+#map {
+    width: 100%;
+    height: 500px;
+    border-radius: 85% 15% 0px 0px / 88% 15% 0px 0px;
+}
