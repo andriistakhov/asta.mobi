@@ -7,6 +7,9 @@ body {
 }
 
 .bg-h {
+    /*position: absolute;
+    top:0;
+    left: 0;*/
     z-index: -1;
 }
 
@@ -28,8 +31,8 @@ a:hover {
 
 .text {
     position: absolute;
-    top: 5%;
-    left: 10%;
+    top: 3%;
+    left: 7%;
 }
 
 .logo {
@@ -37,26 +40,23 @@ a:hover {
 }
 
 .title {
-    width: 75%;
-    margin-top: 30px;
+    width: 60%;
+    margin-top: 2%;
 }
 
 .title p {
-    width: 502px;
-    height: 110px;
-    /*font-size: 46px;*/
+    font-size: 1.5em;
     font-weight: 300;
     color: #000000;
 }
 
 .description {
     width: 56%;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .description p {
-    /*font-size: 18px;*/
     font-weight: 500;
     line-height: 1.2;
     color: #898989;
@@ -120,9 +120,15 @@ a:hover {
     opacity: 0.8;
     font-size: 1.5rem;
     font-weight: 700;
-    line-height: 1;
     text-align: left;
     color: #000000;
+}
+
+.about p {
+    font-size: 1.4rem;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.1px;
 }
 
 .headline {
@@ -131,13 +137,6 @@ a:hover {
     line-height: 1;
     text-align: left;
     color: #000000;
-}
-
-.about p {
-    font-size: 1.2rem;
-    line-height: 1.2;
-    font-weight: 300;
-    letter-spacing: 0.1px;
 }
 
 
@@ -182,6 +181,11 @@ span {
     letter-spacing: 0.5px;
     text-align: left;
     color: #333333;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
 }
 
 .technology {
@@ -297,35 +301,68 @@ input {
     border-radius: 85% 15% 0px 0px / 88% 15% 0px 0px;
 }
 
+.non {
+    position: absolute;
+    left: 12%;
+    right: 10%;
+    margin-top: 48%;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.1px;
+    color: #606060;
+}
+
 
 /*font size adaptive*/
-
-@media only screen and (min-width: 0) {
-    body {
-        font-size: 10px;
-    }
-}
-
-@media only screen and (min-width: 540px) {
-    body {
-        font-size: 12px;
-    }
-}
-
-@media only screen and (min-width: 960px) {
-    body {
-        font-size: 14px;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    body {
-        font-size: 24px;
-    }
-}
 
 @media only screen and (min-width: 1600px) {
     body {
         font-size: 40px;
+    }
+    .non {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+    body {
+        font-size: 24px;
+    }
+    .non {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+    body {
+        font-size: 14px;
+    }
+    .non {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width: 959px) {
+    body {
+        font-size: 12px;
+    }
+    .about {
+        display: none;
+    }
+    .description {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 0) and (max-width: 575px) {
+    body {
+        font-size: 10px;
+    }
+    .about {
+        display: none;
+    }
+    .description {
+        display: none;
     }
 }
