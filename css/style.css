@@ -39,6 +39,10 @@ a:hover {
     min-height: 40px;
 }
 
+.logo img {
+    width: 45%;
+}
+
 .title {
     width: 60%;
     margin-top: 2%;
@@ -114,8 +118,8 @@ a:hover {
 
 .about {
     position: absolute;
-    left: 10%;
-    right: 10%;
+    left: 8%;
+    right: 8%;
     margin-top: 48%;
     opacity: 0.8;
     font-size: 1.5rem;
@@ -186,6 +190,7 @@ span {
 .flex {
     display: flex;
     justify-content: center;
+    margin-top: 2%;
 }
 
 .technology {
