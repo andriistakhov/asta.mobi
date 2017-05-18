@@ -58,7 +58,7 @@ a:hover {
 .description p {
     /*font-size: 18px;*/
     font-weight: 500;
-    line-height: 1.38;
+    line-height: 1.2;
     color: #898989;
 }
 
@@ -66,11 +66,9 @@ a:hover {
     background-color: black;
     color: white;
     border-radius: 20px;
-    width: 150px;
-    height: 50px;
-    padding: 15px 30px;
+    padding: 10px 20px;
     text-align: center;
-    /*font-size: 20px;*/
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -120,16 +118,25 @@ a:hover {
     right: 10%;
     margin-top: 48%;
     opacity: 0.8;
-    /*font-size: 40px;*/
-    font-weight: 300;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    text-align: left;
+    color: #000000;
+}
+
+.headline {
+    font-size: 1.5rem;
+    font-weight: 700;
     line-height: 1;
     text-align: left;
     color: #000000;
 }
 
 .about p {
-    /*font-size: 17px;*/
-    line-height: 1.53;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    font-weight: 300;
     letter-spacing: 0.1px;
 }
 
@@ -265,11 +272,8 @@ li {
     background-color: black;
     color: white;
     border-radius: 30px;
-    width: 150px;
-    height: 50px;
-    line-height: 50px;
+    padding: 10px 20px;
     text-align: center;
-    /*font-size: 16px;*/
     font-weight: bold;
 }
 
